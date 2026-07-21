@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+   <a href="#home">Home</a>
+   <a href="#about">About</a>
+   <a href="#skills">Skills</a>
+   <a href="#future-plans">Future plans</a>
+   <a href="#projects">Projects</a>
+   <a href="#contact" >Contact</a>
+</nav>
+
+<button id="themeButton" onclick="changeTheme()">
+🌙 Dark Mode
+</button>
+
+  <h1 id="welcomeText">Welcome to My Website</h1>
+    <p id="date"></p>
+    <p id="clock"></p>
+  <button id="myButton" onclick="changeText()">Learn more about me</button>
+  
+  <img src="images/profile.jpg" alt="Profile Picture">
+
+  <p id="paragraph">My name is Wisdom.I am learning web development and building my skills in HTML and CSS.My goal is to become a professional web developer and create amazing websites.</p>
+ 
+<button onclick="toggleAbout()" id="aboutButton">
+Show About Me
+</button>
+
+ <div id="about">
+ 
+  <h2>About Me</h2>
+    
+    <p>I am passionate about technology and web development.I enjoy learning new skills and improving my knowledge everyday. My goal is to become a professional web developer and build amazing websites. </p>
+
+ </div>
+    
+
+<div>
+  
+    <h2>My Goals</h2>
+  
+  <p>Build professional websites for clients. </p>
+ 
+  <p>Learn Javascript and other web technologies </p>
+
+  <a href="#projects" class="button-link">View My projects</a> 
+
+</div>
+
+<div class="flex-container">
+
+  <div id="skills">
+  
+   <h3>My Skills</h3>
+  
+   <ul>
+     <li> HTML</li>
+     <li> CSS</li>
+     <li>Problem solving</li>
+     <li>Continuous Learning </li>
+   </ul>
+ 
+  </div>
+ 
+  <div id="future-plans">
+  
+   <h4>My Future Plans</h4>
+   
+     <P>I want to learn Javascript</P>
+
+     <p>Continue improving  my web development skills</p>
+
+   </div>
+
+</div>
+
+<button onclick="toggleProjects()" id="projectsButton">
+Show Projects
+</button>
+
+<section id="projects">
+
+    <h2>My Projects</h2>
+
+    <div class="project-card">
+
+        <h3>🌐 Personal Portfolio Website</h3>
+
+        <p>
+            My personal portfolio built with HTML, CSS and JavaScript.
+            It introduces who I am, my skills, projects and contact information.
+        </p>
+
+        <a href="https://wisdom5134.github.io/portfolio/" target="_blank">
+            Live Demo
+        </a>
+
+    </div>
+
+    <div class="project-card">
+
+        <h3>👤 Profile Card</h3>
+
+        <p>
+            A modern profile card with hover effects, social links and responsive layout.
+        </p>
+
+        <a href="https://wisdom5134.github.io/profile-card/" target="_blank">
+            Live Demo
+        </a>
+
+    </div>
+
+    <div class="project-card">
+
+        <h3>🛍 Product Card</h3>
+
+        <p>
+            A responsive product card built with HTML and CSS showcasing clean UI design.
+        </p>
+
+        <a href="https://wisdom5134.github.io/product-card/" target="_blank">
+            Live Demo
+        </a>
+
+    </div>
+
+    <div class="project-card">
+
+        <h3>🔐 Login Page</h3>
+
+        <p>
+            Coming Soon...
+        </p>
+
+    </div>
+
+</section>
+  
+<button onclick="toggleContact()" id="contactButton">
+    Show Contact
+</button>
+
+  <div class="contact" id="contact">
+   <h3>Contact me</h3>
+   
+   <p>  Feel free to contact me if you would like to work with me or leearn more about my projects.</p>
+    
+   <a href="mailto:wisdomlawal250@gmail.com">
+   wisdomlawal250@gmail.com
+   </a>
+   
+   <a href="https://wa.me/2348167677332" target="_blank">
+
+        Chat with me on WhatsApp
+
+</a>
+
+  </div>
+
+<footer>
+    <p>© 2026 Wisdom Lawal. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
